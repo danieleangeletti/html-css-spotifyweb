@@ -73,6 +73,8 @@ img {
     background-color: var(--top-bar-bg-color);
     display: flex;
     justify-content: flex-end;
+    position: sticky;
+    top: 0;
 }
 
 .button-upgrade-container {
@@ -141,10 +143,50 @@ img {
 /* 
     FOOTER
 */
+footer {
+    color: white;
+}
+
 .footer-container {
     width: 100%;
     height: 80px;
     background-color: var(--footer-bg-color);
+}
+
+.footer-my-row {
+    height: 100%;
+    padding: 0 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.favourite-song {
+    width: 152px;
+}
+
+.footer-left-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dream-theater-container-img {
+    width: 40px;
+    height: 40px;
+}
+
+footer h4, footer p {
+    font-size: 0.5em;
+    padding-left: 6px;
+}
+
+footer h4 {
+    padding-bottom: 4px;
+}
+
+.folder-container {
+    padding-left: 8px;
 }
 
 /* 
