@@ -43,6 +43,16 @@ html {
     margin: 16px 0;
 }
 
+img {
+    width: 100%;
+    display: block;
+}
+
+.my-circle-img {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
 /* 
     MAIN
 */
@@ -56,6 +66,7 @@ html {
     width: calc(100% - 160px);
     height: calc(100vh - 80px);
     background-color: var(--main-bg-color);
+    overflow: auto;
 }
 
 .top-bar-container {
@@ -104,6 +115,15 @@ html {
     margin-left: 16px;
 }
 
+.main-container h4 {
+    color: white;
+    margin: 6px 0;
+}
+
+.main-container h5 {
+    color: var(--secondary-font-color);
+}
+
 .main-container p {
     margin-bottom: 16px;
     margin-left: 16px;
@@ -112,10 +132,10 @@ html {
 
 .my-song-1-6 {
     width: calc((100% / 6) - 32px);
-    background-color: white;
     margin-left: 16px;
     margin-right: 16px;
     margin-bottom: 16px;
+    text-align: center;
 }
 
 /* 
