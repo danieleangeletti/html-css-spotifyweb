@@ -189,6 +189,10 @@ footer h4 {
     padding-left: 8px;
 }
 
+.heart-and-folder-container {
+    display: flex;
+}
+
 /* 
     MEDIA QUERY
 */
@@ -215,5 +219,17 @@ footer h4 {
 
     .my-song-1-2 {
         width: calc((50%) - 32px);
+    }
+
+    /* 
+        FOOTER
+    */
+    .heart-and-folder-container {
+        display: block;
+        padding-left: 4px;
+    }
+
+    .folder-container {
+        padding: 0;
     }
 }
