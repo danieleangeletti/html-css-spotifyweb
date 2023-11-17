@@ -182,6 +182,47 @@ img {
     overflow: auto;
 }
 
+.down .profile-container {
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+
+.down .profile-container img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--user-bg-color);
+    border-radius: 50%;
+}
+
+.install-row-container, .profile-row-container {
+    display: flex;
+    align-items: center;
+}
+
+.arrow-down-container {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    background-color: black;
+    border: 1px solid var(--secondary-font-color);
+    border-radius: 50%;
+}
+
+.arrow-down-container i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.down hr {
+    margin: 12px 0;
+    border: 1px solid var(--secondary-font-color);
+}
+
 /* 
     MAIN CONTENT
 */
