@@ -19,6 +19,7 @@ html {
     --footer-bg-color: #272727;
     --top-bar-bg-color: #090B13;
     --secondary-font-color: #787A7E;
+    --empty-bar-color: #5A5A5A;
 }
 
 /* 
@@ -35,6 +36,10 @@ html {
 
 .secondary-font {
     color: var(--secondary-font-color);
+}
+
+.empty-bar-bg-color {
+    background-color: var(--empty-bar-color);
 }
 
 .my-row {
@@ -243,8 +248,24 @@ footer h4 {
 .volume-bar {
     width: 100%;
     height: 50%;
-    background-color: white;
+    background-color: var(--empty-bar-color);
     border-radius: 50px;
+}
+
+.song-point {
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.volume-point {
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
 }
 
 /* 
