@@ -20,6 +20,7 @@ html {
     --top-bar-bg-color: #090B13;
     --secondary-font-color: #787A7E;
     --empty-bar-color: #5A5A5A;
+    --user-bg-color: #808080;
 }
 
 /* 
@@ -41,6 +42,10 @@ html {
 
 .empty-bar-bg-color {
     background-color: var(--empty-bar-color);
+}
+
+.user-bg-color {
+    background-color: var(--user-bg-color);
 }
 
 .my-row {
@@ -75,6 +80,35 @@ img {
     color: var(--secondary-font-color);
     height: 100%;
     display: none;
+}
+
+.xs-screen img {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.up-two > *, .down-two > * {
+    padding: 4px 0;
+}
+
+.down-two .download-container img {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.down-two .profile-container {
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+
+.down-two .profile-container img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--user-bg-color);
+    border-radius: 50%;
 }
 
 .lg-mg-s-screen {
