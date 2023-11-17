@@ -64,6 +64,44 @@ img {
     overflow: hidden;
 }
 
+a {
+    text-decoration: none;
+}
+
+.img-container, .my-circle-img {
+    position: relative;
+}
+
+.img-container i {
+    font-size: 3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.my-circle-img i {
+    font-size: 3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.my-song-1-6:hover .img-container, .my-song-1-6:hover .my-circle-img {
+    opacity: 0.5;
+}
+
+.my-song-1-6:hover .img-container i {
+    display: block;
+}
+
+.my-song-1-6:hover .my-circle-img i {
+    display: block;
+}
+
 /* 
     MAIN
 */
