@@ -62,12 +62,32 @@ img {
 /* 
     MAIN
 */
+/* 
+    ASIDE
+*/
 .sidebar-container {
     width: 160px;
     height: 100%;
     background-color: black;
 }
 
+.xs-screen {
+    color: var(--secondary-font-color);
+    height: 100%;
+    display: none;
+}
+
+.lg-mg-s-screen {
+    color: var(--secondary-font-color);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* 
+    MAIN CONTENT
+*/
 .main-container {
     width: calc(100% - 160px);
     height: 100%;
@@ -299,6 +319,16 @@ footer h4 {
 @media screen and (max-width: 600px) {
     .sidebar-container {
         width: 60px;
+    }
+
+    .lg-mg-s-screen {
+        display: none;
+    }
+
+    .xs-screen {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .main-container {
