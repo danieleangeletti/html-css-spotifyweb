@@ -27,6 +27,7 @@ html {
 */
 .container {
     width: 100%;
+    height: calc(100vh - 80px);
     display: flex;
 }
 
@@ -63,13 +64,13 @@ img {
 */
 .sidebar-container {
     width: 160px;
-    height: calc(100vh - 80px);
+    height: 100%;
     background-color: black;
 }
 
 .main-container {
     width: calc(100% - 160px);
-    height: calc(100vh - 80px);
+    height: 100%;
     background-color: var(--main-bg-color);
     overflow: auto;
 }
