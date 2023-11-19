@@ -303,6 +303,11 @@ a {
     border-radius: 20px;
 }
 
+.top-bar-container a:hover {
+    padding: 10px 20px;
+    font-size: 1.1em;
+}
+
 .nav-container {
     display: flex;
     justify-content: center;
