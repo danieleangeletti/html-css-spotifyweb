@@ -165,10 +165,6 @@ a {
     padding-bottom: 6px;
 }
 
-.home-row-container .my-text {
-    color: white;
-}
-
 .libreria-row-container {
     padding-bottom: 16px;
 }
@@ -187,6 +183,10 @@ a {
     color: white;
     font-size: 0.8em;
     padding-bottom: 6px;
+}
+
+.down h3 {
+    color: white;
 }
 
 .add-row-container .my-cont-15 {
@@ -255,6 +255,18 @@ a {
     border: 1px solid var(--secondary-font-color);
 }
 
+.lg-mg-s-screen .up .home-row-container .my-text a {
+    color: white;
+}
+
+.lg-mg-s-screen .up div a, .lg-mg-s-screen .up a, .lg-mg-s-screen .down div a {
+    color: var(--secondary-font-color);
+}
+
+.lg-mg-s-screen .up div a:hover, .lg-mg-s-screen .up a:hover, .lg-mg-s-screen .down div a:hover {
+    color: white;
+}
+
 /* 
     MAIN CONTENT
 */
@@ -307,6 +319,10 @@ a {
     color: var(--secondary-font-color);
     padding: 6px 6px;
     font-size: 0.8em;
+}
+
+.nav-container a:hover {
+    color: white;
 }
 
 .main-container h2 {
