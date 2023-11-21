@@ -217,7 +217,7 @@ a {
 }
 
 .playlist-container {
-    height: 120px;
+    height: 35%;
     overflow: auto;
 }
 
